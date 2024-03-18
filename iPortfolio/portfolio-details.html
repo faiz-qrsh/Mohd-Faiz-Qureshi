@@ -30,7 +30,8 @@
   
 </head>
 
-<body>
+
+<body onload="putDetails()">
 
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
@@ -46,7 +47,7 @@
           <a href="https://twitter.com/Faiz_qrsh?t=Ec7WNIeeqIvhPFKIOOt-Nw&s=08" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://www.facebook.com/faiz.qureshi.146069?mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
           <a href="https://instagram.com/faiz.qrsh?igshid=ZDdkNTZiNTM=" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/mohd-faiz-qureshi-b4858621b" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/mohdfaizqureshi/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
@@ -85,28 +86,28 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
+          <div class="col-lg-5">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-9.png" alt="">
+                  <img src="assets/img/portfolio/p1.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-3.png" alt="">
+                  <img src="assets/img/portfolio/p3.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-5.png" alt="">
+                  <img src="assets/img/portfolio/p2.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-8.png" alt="">
+                  <img src="assets/img/portfolio/p5.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-2.jpg" alt="">
+                  <img src="assets/img/portfolio/p4.png" alt="">
                 </div>
 
               </div>
@@ -114,25 +115,22 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-7">
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Android App</li>
-                <li><strong>Client</strong>: SRMS</li>
-                <li><strong>Project date</strong>: 25 Sep, 2022</li>
-                <li><strong>Project URL</strong>: <a href="https://github.com/faiz-qrsh">https://github.com/faiz-qrsh</a></li>
+                <li><strong>Category</strong>: <span id="category">Android App</span></li>
+                <li><strong>Project date</strong>: <span id="date"></span></li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/faiz-qrsh" id="link">https://github.com/faiz-qrsh</a></li>
+                <li><strong>Technology Used</strong>: <span id="tech"></span></li>
               </ul>
             </div>
-            <div class="portfolio-description">
-              <h2>SRMS Grievance App</h2>
-              <p>
-                The idea is to automate the entire complaint process.</p>
-                <p>The system functions to look into the grievances lodged by any individual of the college.</p>
-              
-            </div>
           </div>
-
+          <div class="portfolio-description">
+            <h2 id="name"></h2>
+            <p id="para1"></p>
+            <p id="para2"></p>
+          </div>
         </div>
 
       </div>
