@@ -1065,3 +1065,12 @@ section {
   color: white;
   margin-left: -13px;
 }
+
+video{
+  width: 100%;
+  margin: 0px 100px;
+}
+.hobbies h3{
+  text-align: center;
+  
+}
