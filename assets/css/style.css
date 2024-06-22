@@ -1059,7 +1059,9 @@ section {
     padding-right: 20px 15px;
   }
 }
-
+.container{
+  width: 85%;
+}
 #downloadBtn{
   background-color: #149ddd;
   color: white;
