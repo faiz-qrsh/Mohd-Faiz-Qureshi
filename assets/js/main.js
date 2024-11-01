@@ -385,5 +385,27 @@ function putDetails() {
       tech.innerHTML = "Java, J2EE, HTML, CSS, MySQL";
       association.innerHTML = "CETPA Infotech Pvt. Ltd. Internship";
       break;
+
+      case '14':
+      para1.innerHTML = "Developed requirements and logic based on Sonarys' business processes, creating custom objects, metadata, and fields to meet project needs. Built various Lightning Web Components (LWC) and Visualforce pages to enhance user experience, along with triggers to support company-specific workflows. Designed dashboards and reports for actionable insights while leveraging Salesforce Sales Cloud.";
+      para2.innerHTML = "Integrated data with Tally and built complex logic using Apex, Queueable, and Batch classes, maintaining over 75% test coverage through comprehensive unit test plans. Conducted bug troubleshooting and fixes, and authored technical documentation, code comments, and user manuals to facilitate understanding and usability for end users.";
+      name.innerHTML = "Sonarys Co-Brands Pvt Ltd";
+      category.innerHTML = "Salesforce";
+      date.innerHTML = "Jul 2024 - Sep 2024";
+      link.href = git + "Sonarys";
+      tech.innerHTML = "Sales Cloud, APEX, Triggers, Flows, Integration, Postman, LWC, Visualforce";
+      association.innerHTML = "Techila Global Services";
+      break;
+
+      case '15':
+      para1.innerHTML = "Advanced Einstein AI research and development for faster deal closures (25%), personalized service, and targeted customer insights. Configured various Einstein features, including Article Recommendation, Email Summaries, Service Replies, Case Classification, and Copilot.";
+      para2.innerHTML = "Created a Lightning Web Component (LWC) using a prompt template to display AI insights, encompassing resolution steps, account case summaries, and email recommendations. Utilized template-triggered flows to enhance AI response generation.";
+      name.innerHTML = "Ark Swimwear";
+      category.innerHTML = "Salesforce";
+      date.innerHTML = "oct 2024 - Present";
+      link.href = git + "Ark";
+      tech.innerHTML = "Service Cloud, APEX, Flows, Postman, LWC, Einstein AI";
+      association.innerHTML = "Techila Global Services";
+      break;
   }
 }
