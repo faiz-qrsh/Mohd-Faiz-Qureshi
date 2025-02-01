@@ -215,7 +215,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Head Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -409,7 +409,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -549,12 +549,20 @@ section {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
+  float: left;
+  padding: 10px;
+    width:  250px;
+    height: 250px;
+    background-color: white;
+    align-content: center;
+    object-fit: cover;
   z-index: 1;
 }
 
 .portfolio .portfolio-wrap::before {
-  content: "";
+  
   background: rgba(255, 255, 255, 0.5);
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -587,14 +595,14 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed;
+  
 }
 
 .portfolio .portfolio-wrap:hover::before {
+  border: 1px solid #149ddd;
   top: 0;
   left: 0;
   right: 0;
@@ -603,8 +611,8 @@ section {
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
-  opacity: 1;
-  bottom: 0;
+  /* opacity: 1;
+  bottom: 0; */
 }
 
 /*--------------------------------------------------------------
@@ -736,14 +744,15 @@ section {
 }
 
 .testimonials .testimonial-item {
+  background-color: white;
   box-sizing: content-box;
   text-align: center;
-  min-height: 320px;
+  padding: 15px;
+  border-radius: 20%;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
+  height: 100px;
   margin: 0 auto;
 }
 
@@ -1050,31 +1059,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 9999;
-  background: #040b14;
-}
-
-#footer .copyright {
-  text-align: center;
-}
-
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
-}
 
 @media (max-width: 1199px) {
   #footer {
@@ -1083,9 +1067,20 @@ section {
     padding-right: 20px 15px;
   }
 }
-
+.container{
+  width: 85%;
+}
 #downloadBtn{
   background-color: #149ddd;
   color: white;
   margin-left: -13px;
+}
+
+video{
+  width: 100%;
+  margin: 0px 100px;
+}
+.hobbies h3{
+  text-align: center;
+  
 }
