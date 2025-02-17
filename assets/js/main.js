@@ -211,6 +211,35 @@
   });
 
   /**
+   * Acievements slider
+   */
+  new Swiper('.achievement-slider', {
+    speed: 500,
+    loop: true,
+    autoplay: {
+      delay: 6000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+
+      1200: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      }
+    }
+  });
+
+  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
